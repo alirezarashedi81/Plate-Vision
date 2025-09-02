@@ -40,6 +40,4 @@ This project is a real-time **car detection, tracking, and license plate recogni
 - Integration with databases for large-scale vehicle management  
 - Edge device optimization for IoT cameras  
 
----
 
-## 📂 Repository Structure  
