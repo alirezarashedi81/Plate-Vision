@@ -1,55 +1,45 @@
-🚗 License Plate Recognition System
+# 🚗 License Plate Recognition & Tracking System  
 
-This project is a real-time license plate recognition system designed specifically for Indian car models. It detects, tracks, and captures license plates with high accuracy, even in crowded traffic scenes.
+This project is a real-time **car detection, tracking, and license plate recognition system**, fine-tuned specifically on **Indian car models**. The system detects vehicles, captures their license plates, and automatically saves/renames them with unique car IDs. It is **quantized for efficiency**, achieving **high accuracy** while remaining lightweight for deployment.  
 
-  ✨ Features
-  
-  🔍 Car Detection & Tracking – Fine-tuned YOLO model for detecting cars in Indian traffic.
-  
-  🏷️ License Plate Recognition – Custom-trained plate detection model captures and saves plates.
-  
-  💾 Auto-Save & Rename – Each plate is saved and renamed to the corresponding car ID number.
-  
-  ⚡ Quantized Model – Optimized for speed and efficiency on resource-limited devices.
-  
-  ☁️ Cloud Deployment – Deployed on Azure for scalable and real-world applications.
-  
-  🎯 High Reliability – Tested in crowded traffic with no ID switch issues.
+---
 
-📊 Tech Stack
+## Demo 🎥
 
-  YOLOv8 for car detection
-  
-  Custom Plate Detection Model for license recognition
-  
-  OpenCV for preprocessing & tracking
-  
-  Azure for deployment
-  
-  Quantization for performance optimization
+![Plate Recognition Demo](media/demo.gif)
 
-📂 Workflow
+---
 
-  Detect cars in the video feed.
-  
-  Track each car with a unique ID.
-  
-  Capture the license plate of each car.
-  
-  Save the plate image, renamed to the car ID number.
-  
-  Store processed results for further use.
+## ✨ Features  
+- 🔹 Real-time car detection & tracking (YOLO-based)  
+- 🔹 Custom license plate detection & recognition model  
+- 🔹 Automatic plate saving & renaming with car ID  
+- 🔹 Works in **crowded traffic scenes** with no ID switch  
+- 🔹 Quantized for performance on resource-limited devices  
+- 🔹 Deployed on **Azure Cloud** for scalability  
 
-🎥 Demo
+---
 
-(Insert link to demo video or GIF here)
+## 🛠 Tech Stack  
+- **YOLO** – Vehicle detection & tracking  
+- **Custom Plate Recognition Model** – Trained for Indian plates  
+- **OpenCV** – Image preprocessing  
+- **Azure** – Deployment platform  
 
-🚀 Use Cases
+---
 
-  Intelligent Traffic Monitoring
-  
-  Automated Toll Systems
-  
-  Parking Lot Management
-  
-  Smart City Applications
+## 📊 Results  
+- ✅ High accuracy in plate recognition  
+- ✅ Stable tracking with no ID switching  
+- ✅ Tested in **busy Indian traffic scenes**  
+
+---
+
+## 🚀 Future Improvements  
+- Multi-country plate recognition support  
+- Integration with databases for large-scale vehicle management  
+- Edge device optimization for IoT cameras  
+
+---
+
+## 📂 Repository Structure  
