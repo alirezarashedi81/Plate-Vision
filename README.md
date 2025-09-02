@@ -7,7 +7,7 @@ This project is a real-time **car detection, tracking, and license plate recogni
 ## Demo 🎥
 
 ![Plate Recognition Demo](media/demo.gif)
-
+ 
 ---
 
 ## ✨ Features  
